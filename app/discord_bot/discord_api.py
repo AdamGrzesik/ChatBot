@@ -24,7 +24,7 @@ class MyClient(discord.Client):
                 print(command, user_message)
         if command == '' or command == '/bot' or command == '/talk':
             bot_response = chatgpt_response(prompt=user_message)
-            await message.channel.send(f'Answer: {bot_response}')
+            await message.channel.send(f'{bot_response}')
 
 
 intens = discord.Intents.default()
