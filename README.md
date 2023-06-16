@@ -16,3 +16,6 @@ In main directory.
 
 Go to the project directory and run run.py script
 
+## Notice
+
+You need to define environmental variables in .env file, which is not included in this repo for security reasons. 
